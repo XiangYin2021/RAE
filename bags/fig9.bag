@@ -1,0 +1,17 @@
+arg(alpha, 0).
+arg(beta, 0).
+arg(gamma, 0).
+arg(zeta, 0).
+arg(mu, 0.4).
+arg(rho, 0).
+
+
+sup(beta, alpha).
+sup(gamma, alpha).
+att(zeta, alpha).
+sup(mu, alpha).
+sup(rho, beta).
+sup(rho, gamma).
+sup(rho, zeta).
+sup(mu, rho).
+

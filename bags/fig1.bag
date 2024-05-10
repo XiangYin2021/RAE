@@ -1,0 +1,15 @@
+arg(alpha, 0.5).
+arg(beta, 0.9).
+arg(gamma, 0.1).
+arg(delta, 0.1).
+arg(xi, 0.1).
+arg(eta, 0.1).
+
+sup(gamma, alpha).
+att(xi, alpha).
+sup(eta, alpha).
+att(delta, xi).
+sup(beta, gamma).
+sup(beta, delta).
+att(beta, eta).
+
